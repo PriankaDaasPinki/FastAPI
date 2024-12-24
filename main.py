@@ -23,7 +23,7 @@ async def role(role: Role):
         return JSONResponse(
             content={"role": role, "message": "You are an admin"},
             status_code=status.HTTP_200_OK,
-        )
+        ) 
     elif role is Role.USER:
         return JSONResponse(
             content={"role": role, "message": "You are a user"},
