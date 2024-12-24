@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlmodel
+asyncpg
+psycopg2
+psycopg2-binary
+sqlalchemy
+# sqlalchemy[asyncio] asyncpg
+# tortoise-orm asyncpg
